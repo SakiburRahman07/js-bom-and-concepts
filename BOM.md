@@ -51,27 +51,3 @@ setTimeout(() => {
 }, 3000);
 ```
 In this example, the new window opens with an initial width of 300 pixels and a height of 200 pixels. After 3 seconds, it’s resized to 500 by 400 pixels.
-# JavaScript Window Screen
-
-The `window.screen` object contains information about the user's screen. This object can be accessed directly without the `window` prefix.
-
-## Properties of the `window.screen` Object
-
-- **screen.width**: Returns the width of the screen in pixels.
-- **screen.height**: Returns the height of the screen in pixels.
-- **screen.availWidth**: Returns the available width of the screen, excluding system UI elements.
-- **screen.availHeight**: Returns the available height of the screen, excluding system UI elements.
-- **screen.colorDepth**: Returns the color depth of the screen, in bits.
-- **screen.pixelDepth**: Returns the pixel depth of the screen, in bits.
-
-### Window Screen Width
-
-The `screen.width` property returns the width of the visitor's screen in pixels.
-
-**Example**
-
-Display the width of the screen in pixels:
-
-```javascript
-document.getElementById("demo").innerHTML = "Screen Width: " + screen.width;
-
